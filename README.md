@@ -2,13 +2,13 @@
 Use Python Selenium to scrape data from the EPFO website
 In this project, I have done web scarping on the EPFO website to get the payment details for the Employees. 
 
-I have done this project using two approach becuase thier was cpachta persent in the webiste for automating the captcha I need to do with two differnet approach :
+I have done this project using two approach because there was cpachta persent in the websitte for automating the captcha I need to do with two different approach :
 
 1. Using python library (pytesseract)
 2. Using ML model (microsoft/trocr-large-printed)
 
 #### Purpose behind these approaches:
-Python library (PyTesseract) not able to convert image into text efficiently sometimes it's give wrong captcha text, that's why I'm working with the ML model to solve the captcha with efficient manner for converting image to text.
+Python library (PyTesseract) is not able to convert image into text efficiently. Sometimes it gives wrong captcha text, that's why I'm working with the ML model to solve the captcha in an efficient manner for converting image to text.
 
 #### Executable file:
 
